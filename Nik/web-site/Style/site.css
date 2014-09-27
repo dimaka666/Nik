@@ -1,0 +1,79 @@
+body {
+        text-align:center;
+}
+#wrapper {
+    margin-top: 10%;
+}
+#header {
+    display:table;
+    margin-left:auto;
+    margin-right:auto;
+}
+#nav {
+    
+    margin-left: -33px;
+}
+#nav ul {
+    list-style: none;
+}
+#nav li {
+    width: 170px;
+    height: 170px;
+    display:table-cell;
+    vertical-align: middle;
+
+}
+
+#nav li:hover{
+    cursor:pointer;
+}
+#nav li a {
+
+}
+#nav div {
+    float:left;
+}
+content div{
+    width: 600px;
+margin-left: auto;
+margin-right: auto;
+box-shadow: rgb(101, 107, 107) 0px 2px 0px 0px;
+}
+content h1 {
+    box-shadow: rgb(101, 107, 107) 0px 2px 0px 0px;
+}
+
+.grow {
+    -webkit-transition-duration: 0.3s;
+transition-duration: 0.3s;
+-webkit-transition-property: transform;
+transition-property: transform;
+-webkit-transform: translateZ(0);
+transform: translateZ(0);
+box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+}
+
+.grow:hover, .grow:focus, .grow:active {
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+}
+
+.button {
+ -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+#green {
+    background: url('../images/green.png') no-repeat;
+}
+#blue {
+    background: url('../images/blue.png') no-repeat;
+}
+#yell {
+    background: url('../images/yell.png') no-repeat;
+}
+#orang {
+    background: url('../images/orang.png') no-repeat;
+}
+#red {
+    background: url('../images/red.png') no-repeat;
+}
