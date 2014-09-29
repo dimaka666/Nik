@@ -37,10 +37,13 @@ content div{
     width: 600px;
 margin-left: auto;
 margin-right: auto;
-box-shadow: rgb(101, 107, 107) 0px 2px 0px 0px;
 }
 content h1 {
     box-shadow: rgb(101, 107, 107) 0px 2px 0px 0px;
+}
+
+#content {
+    padding-top:20px;
 }
 
 .grow {
@@ -76,4 +79,10 @@ box-shadow: 0 0 1px rgba(0, 0, 0, 0);
 }
 #red {
     background: url('../images/red.png') no-repeat;
+}
+
+#activeImg {
+    position: absolute;
+margin-top: 22px;
+margin-left: -51px;
 }

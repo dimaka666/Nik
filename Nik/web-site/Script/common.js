@@ -1,8 +1,11 @@
 $(document).ready(function () {
     $("#nav li").click(
-        function () {
+        function () {           
             $(".page:visible").hide();
-            $(this).addClass('active')
+            var img = $('#nav img');
+            $('#nav img').remove();
+            window.location.hash = $(this).attr('id')
+            $(this).append(img);
             $("#" + $(this).attr('id') + "Content").slideDown();
     })
 });
